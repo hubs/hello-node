@@ -11,6 +11,10 @@ describe('#indexOf',function(){
 	it('Shoud return 2',function(){
 		assert.equal(2,[1,2,3].indexOf(3));
 	});
+
+	it('Shoud return Error',function(){
+		assert.equal(3,[1,2,3].indexOf(5));
+	});
 });	
 
 
